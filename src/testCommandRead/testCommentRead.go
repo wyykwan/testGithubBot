@@ -20,6 +20,7 @@ func handleWebhook(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	log.Println("server started")
+	log.Println("for another commit")
 	http.HandleFunc("/webhook", handleWebhook)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
