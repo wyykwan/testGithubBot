@@ -20,9 +20,7 @@ func handleWebhook(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	log.Println("server started")
-	log.Println("sync check #1")
-	log.Println("sync check #2")
-	log.Println("sync check #3")
+	log.Println("squash check #1")
 	http.HandleFunc("/webhook", handleWebhook)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
