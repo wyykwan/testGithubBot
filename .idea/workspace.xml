@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/testCommandRead/testCommentRead.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="e#14#62#0" expanded="true" />
               </folding>
@@ -64,10 +64,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2185" />
-    <option name="y" value="-805" />
+    <option name="x" value="424" />
+    <option name="y" value="24" />
     <option name="width" value="1231" />
-    <option name="height" value="954" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,15 +148,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564613721745</updated>
-      <workItem from="1564691934125" duration="4459000" />
+      <workItem from="1564691934125" duration="5198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3355000" />
+    <option name="totallyTimeSpent" value="4094000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2185" y="-805" width="1231" height="954" extended-state="0" />
+    <frame x="424" y="24" width="1231" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29941127" />
@@ -212,7 +212,7 @@
     <entry file="file://$PROJECT_DIR$/src/testCommandRead/testCommentRead.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="e#14#62#0" expanded="true" />
           </folding>
