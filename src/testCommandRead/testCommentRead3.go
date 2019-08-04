@@ -22,6 +22,7 @@ func main() {
 	log.Println("server started")
 	log.Println("feature merge check #1")
 	log.Println("feature merge check #2")
+	log.Println("feature merge check #3??")
 	http.HandleFunc("/webhook", handleWebhook3)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
