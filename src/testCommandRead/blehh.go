@@ -21,6 +21,7 @@ func handleWebhook5(w http.ResponseWriter, r *http.Request) {
 func main() {
 	log.Println("server started")
 	log.Println("squash #1")
+	log.Println("squash #2")
 	http.HandleFunc("/webhook", handleWebhook5)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
