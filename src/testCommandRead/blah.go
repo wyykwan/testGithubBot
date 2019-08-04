@@ -21,6 +21,7 @@ func handleWebhook4(w http.ResponseWriter, r *http.Request) {
 func main() {
 	log.Println("server started")
 	log.Println("feature merge #1")
+	log.Println("feature merge #2")
 	http.HandleFunc("/webhook", handleWebhook4)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
