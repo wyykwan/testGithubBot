@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func kwaan(w http.ResponseWriter, r *http.Request) {
+func kwaaaan(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("headers: %v\n\n", r.Header)
 
 	_, err := io.Copy(os.Stdout, r.Body)
@@ -20,6 +20,6 @@ func kwaan(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	log.Println("server started")
-	http.HandleFunc("/webhook", kwaan)
+	http.HandleFunc("/webhook", kwaaaan)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
