@@ -19,7 +19,7 @@ func kwaan(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	log.Println("server started")
+	log.Println("server starteddd")
 	http.HandleFunc("/webhook", kwaan)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
