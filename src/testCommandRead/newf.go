@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func wennnn (w http.ResponseWriter, r *http.Request) {
+func wennnnnn (w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("headers: %v\n\n", r.Header)
 
 	_, err := io.Copy(os.Stdout, r.Body)
@@ -20,6 +20,6 @@ func wennnn (w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	log.Println("server starteddd")
-	http.HandleFunc("/webhook", wennnn)
+	http.HandleFunc("/webhook", wennnnnn)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
