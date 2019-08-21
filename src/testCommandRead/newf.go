@@ -19,7 +19,7 @@ func wennnnnnnnn (w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	log.Println("server starteddd")
+	log.Println("server started")
 	http.HandleFunc("/webhook", wennnnnnnnn)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
