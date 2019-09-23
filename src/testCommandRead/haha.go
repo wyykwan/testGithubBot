@@ -19,7 +19,7 @@ func welpp (w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	log.Println("server starteddd")
+	log.Println("server startedd")
 	http.HandleFunc("/webhook", welpp)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
