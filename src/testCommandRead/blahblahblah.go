@@ -19,7 +19,7 @@ func wyyyyyyyyyy(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	log.Println("server started")
+	log.Println("server started meep")
 	http.HandleFunc("/webhook", wyyyyyyyyyy)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
