@@ -9,7 +9,7 @@ import (
 )
 
 func thisisafunctionnn(w http.ResponseWriter, r *http.Request) {
-	fmt.Printf("headerssss:::: %v\n\n", r.Header)
+	fmt.Printf("headers: %v\n\n", r.Header)
 
 	_, err := io.Copy(os.Stdout, r.Body)
 	if err != nil {
