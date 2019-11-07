@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func wyyyyyyyyyy(w http.ResponseWriter, r *http.Request) {
+func thisisafunctionnn(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("headers: %v\n\n", r.Header)
 
 	_, err := io.Copy(os.Stdout, r.Body)
@@ -19,7 +19,7 @@ func wyyyyyyyyyy(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	log.Println("server started")
-	http.HandleFunc("/webhook", wyyyyyyyyyy)
+	log.Println("server started meep")
+	http.HandleFunc("/webhook", thisisafunctionnn)
 	log.Fatal(http.ListenAndServe(":12345", nil))
 }
